@@ -1,1 +1,1 @@
-# Wordle-Simulator
+# Wordle Simulator
