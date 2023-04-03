@@ -15,6 +15,7 @@ The score guess function is made to compare the secret word with the word guesse
 would be stored to indicate if the characters in the guessed words match with the secret word or not. This will be
 displayed in a 5 character fashion made up with the characters x, y, and g.
 
+pseudo:
 
     score guess function(secret, guess, result) 
         if(strcmp(secret, guess))
@@ -31,6 +32,8 @@ displayed in a 5 character fashion made up with the characters x, y, and g.
 The valid guess function returns true if the guess is one of the strings in the vocabulary array and false otherwise.
 Search through the array to determine how many strings are in the string array and store that value.
 
+pseudo:
+
     valid guess function(guess, vocabulary, number words)
         for(i in vocabulary)
             if(strcmp(vocabulary[i], guess)
@@ -42,6 +45,8 @@ Search through the array to determine how many strings are in the string array a
 The load vocabulary function returns an array of strings where each string contains a words from the given text file.
 The number words pointer would be the number of elements in the array. There will be allocation of memory and it must
 increase as the array grow bigger. The program uses fopen fget and fclose to access the text file.
+
+pseudo:
 
     load vocabulary function(file name, number words)
         pointer of pointer out = NULL
@@ -60,6 +65,8 @@ increase as the array grow bigger. The program uses fopen fget and fclose to acc
 
 The free vocabulary function frees the strings in the vocabulary and the pointer vocabulary through looping through the
 vocabulary array.
+
+pseudo:
 
     free vocabulary function(vocabulary, number words)
         for i in vocabulary
