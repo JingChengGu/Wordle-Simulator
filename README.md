@@ -3,7 +3,7 @@
 ### Program Description
 -  Since Wordle became incredibly popular in 2022, I created my own interpretation of the game. The program was created in C language and ran through Ubuntu.
 
-### How to Use/Logistics
+### How to Use / Logistics
 - The program would first ask the user to input a 5 letter word.
 <img width="445" alt="Screenshot 2023-04-13 at 12 12 24 PM" src="https://user-images.githubusercontent.com/64511500/231860224-47c2654a-3d8d-4d0d-96ec-bf38b5bf2258.png">
 
